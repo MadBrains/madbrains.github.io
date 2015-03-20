@@ -1,0 +1,42 @@
+
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+h2.title {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+	margin: 40px 0; 
+}
+
+.project h3 {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+	margin: 40px 0; 
+}
+
+.project-separator {
+	margin: 80px 0;
+}
+
+#contact_info {
+	padding:40px 0;
+	font-size: 1.2em;
+	line-height: 2;
+}
+
+#contact_info b {
+	font-weight: 500;
+}
+
+#map_convas {
+	height: 300px;
+	width: 100%;
+}
+
+#team img.avatar {
+	height: 300px;
+}
