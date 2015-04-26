@@ -124,11 +124,16 @@ h2.title {
 	padding-right: 8px;
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-nav > li > a:hover {
 	color: #ffffff;
     background-color: #2d1604;
     padding-bottom: 5px;
     border-bottom: 4px #ffffff solid; 
+}
+
+.navbar-nav > li > a:focus {
+	color: #ffffff;
+    background-color: #2d1604;
 }
 
 .navbar-nav > li > a:active {
@@ -163,6 +168,7 @@ h2.title {
 
 a.navbar-brand:hover, a.navbar-brand:focus {
 	color:  #ffffff
+
 }
 
 .navbar-toggle {
