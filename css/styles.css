@@ -27,18 +27,23 @@ h2.title {
 /*header*/
 
 #header {
-	background-color: #2D1604;
+	background-color: #231F20;
 	color: #ffffff;
-	background: url("../images/titleImage.png") no-repeat scroll center top / cover #2D1604;
+	background: url("../images/titleImage.png") no-repeat scroll center top / cover #231F20;
 	height: 300px;
 }
 
 /*about*/
 
 #about {
-	background-color: #2D1604;
-	color: #dddddd;
+	/*background-color: #231F20;*/
+	/*color: #dddddd;*/
 	padding: 40px 0; 
+}
+
+.about-text {
+	margin: 40px 0;
+	padding: 0 40px;
 }
 
 /*projects*/
@@ -67,7 +72,7 @@ h2.title {
 /*team*/
 
 #team {
-	background-color: #2D1604;
+	background-color: #231F20;
 	color: #dddddd;
 	padding: 40px 0; 
 }
@@ -105,7 +110,7 @@ h2.title {
 
 .navbar{ 
     background-image: none;
-	background-color: #2d1604;
+	background-color: #231F20;
 	border: none;
 	border-color: #CCCCCC;
 	min-height: 50px;
@@ -126,14 +131,14 @@ h2.title {
 
 .navbar-nav > li > a:hover {
 	color: #ffffff;
-    background-color: #2d1604;
+    background-color: #231F20;
     padding-bottom: 5px;
     border-bottom: 4px #ffffff solid; 
 }
 
 .navbar-nav > li > a:focus {
 	color: #ffffff;
-    background-color: #2d1604;
+    background-color: #231F20;
 }
 
 .navbar-nav > li > a:active {
@@ -141,18 +146,18 @@ h2.title {
 }
 
 .navbar-nav > .active > a {
-	color: #2d1604;
+	color: #231F20;
 	background-color: #ffffff;
-    border-top: 6px #2d1604 solid;
+    border-top: 6px #231F20 solid;
 	padding-top: 8px;
 	font-weight: bold;
 	cursor: default; 
 }
 
 .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-	color: #2d1604;
+	color: #231F20;
 	background-color: #ffffff;
-    border-top: 6px #2d1604 solid;
+    border-top: 6px #231F20 solid;
 	padding-top: 8px;
 	font-weight: bold;
 	cursor: default; 
@@ -181,9 +186,33 @@ a.navbar-brand:hover, a.navbar-brand:focus {
 }
 
 .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
-	background-color: #2d1604;
+	background-color: #231F20;
 }
 
 .navbar-toggle .icon-bar {
 	background-color: #ffffff;
+}
+
+
+.row-xs-flex-center {
+    display:flex;
+    align-items:center;
+}
+@media ( min-width:768px ) {
+    .row-sm-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 992px ) {
+    .row-md-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 1200px ) {
+    .row-lg-flex-center {
+        display:flex;
+        align-items:center;
+    }
 }
