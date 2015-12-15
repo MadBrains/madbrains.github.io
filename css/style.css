@@ -128,11 +128,10 @@ body {
 .cbox {
 	margin-top:27px;
 	color:#fff;
-	text-align: left;
+	text-align: right;
 	float:right;
 	margin-right:20px;
 }
-
 
 .cbox .tel, .cbox .email {
 	display:block;
@@ -145,6 +144,7 @@ body {
 }
 .cbox .email {
 	font-size:16px;
+    margin-bottom:10px;
 	color:#98daf0;
 }
 
@@ -157,6 +157,21 @@ body {
 	color: #dd5f5c;
 	font-size: 16px;
 }
+
+.cbox .address {
+    font-size: 80%;
+    line-height: 1.2em;
+}
+
+.cbox .address a {
+	text-decoration: none;
+	color: #b7b7b7;
+}
+
+.cbox .address:hover a {
+	text-decoration: underline;
+}
+
 .butt a {
 	font-family: "OpenSansBold";
 	font-size: 12px;
