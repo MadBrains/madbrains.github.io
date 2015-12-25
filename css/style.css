@@ -182,6 +182,81 @@ header .header-content .header-content-inner p {
     margin-bottom:38px;
 }
 
+@media only screen and (max-width : 319px) {
+    .logo {
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .cbox {
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 190px;
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size:22px;
+        margin-top:200px;
+    }
+
+    header .header-content .header-content-inner p {
+        font-size:14px;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    .logo {
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .cbox {
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size: 22px;
+        margin-top:200px;
+    }
+
+    header .header-content .header-content-inner p {
+        font-size:14px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .logo {
+        float:left;
+        margin: auto;
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+
+    .cbox {
+        float:right;
+        margin: auto;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    header .header-content .header-content-inner h1 {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width : 640px) {
+    header .header-content .header-content-inner h1 {
+        font-size: 30px;
+        margin-top:25px;
+    }
+}
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
@@ -197,7 +272,8 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content .header-content-inner h1 {
-        font-size: 55px;
+        margin-top: 60px;
+        font-size: 40px;
     }
 
     header .header-content .header-content-inner {
@@ -211,6 +287,13 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size:21px;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    header .header-content .header-content-inner h1 {
+        margin-top: 25px;
+        font-size: 55px;
     }
 }
 
