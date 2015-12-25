@@ -75,6 +75,7 @@ body {
 .logo {
     background: url('../assets/logo.png') left top no-repeat;
     font-family: 'proxima_nova_semibold';
+        /*font-family: 'proxima_nova_extrabold';*/
     font-size: 20px;
     text-transform: uppercase;
     padding-left: 65px;
@@ -91,7 +92,8 @@ body {
 
 }
 .logo span {
-    font-family: 'proxima_nova_extrabold';
+        font-family: 'proxima_nova_semibold';
+    /*font-family: 'proxima_nova_extrabold';*/
 }
 
 .cbox {
@@ -141,6 +143,31 @@ body {
 
 .cbox .address:hover a {
     text-decoration: underline;
+}
+
+.butt {
+    display:block;
+    margin:0px 0px 25px 0px;
+}
+
+.butt a {
+    font-family: "OpenSansBold";
+    font-size: 12px;
+    background: #dd5f5c;
+    border-radius: 27px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 200px;
+    height: 54px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 19px;
+    letter-spacing: 1.5pt;
+}
+.butt a:hover {
+    background: #E06F6D;
 }
 
 header {
@@ -327,6 +354,7 @@ header .header-content .header-content-inner p {
 section {
     min-height: auto;
     text-align: center;
+    padding: 20px;
 }
 
 section .section-container h2 {
@@ -380,9 +408,9 @@ section .section-title {
 .circle {
     border-radius:50%;
     display:table;
-    height: 200px;
-    font-weight: bold;
-    font-size: 1.5em;
+    height: 250px;
+    font-family: "OpenSansExtraBold";
+    font-size: 1.8em;
     width: auto;
     margin:0 auto;
 }
@@ -390,16 +418,24 @@ section .section-title {
 .circle span {
     display:table-cell;
     vertical-align:middle;
-    height:200px;
-    width:200px;
+    height:250px;
+    width:250px;
     text-align:center;
     padding: 0 15px;
+}
+
+.circle-block {
+    padding: 10px;
 }
 
 .circle-block-title {
     margin-top: 30px;
     display: inline-block;
     font-size:18px;
+}
+
+.project {
+    padding: 10px;
 }
 
 .project-img {
@@ -417,4 +453,5 @@ section .section-title {
     font-size: 14px;
     line-height: 1.5em;
     color: #b7b7b7;
+    height: 100px;
 }
