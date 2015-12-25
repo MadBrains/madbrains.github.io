@@ -443,6 +443,11 @@ section .section-title {
     font-size:18px;
 }
 
+.avatar {
+    width: 250px;
+    height: 250px;
+}
+
 .project {
     padding: 10px;
 }
