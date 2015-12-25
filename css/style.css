@@ -494,7 +494,7 @@ section .section-title {
 }
 
 #contacts {
-    margin-bottom: -50px;
+    padding-bottom: 70px;
 }
 
 .contacts {
@@ -528,9 +528,19 @@ section .section-title {
 .contacts .email a {
     text-decoration: none;
     color: #dd5f5c;
-    font-size: 20px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width : 480px) {
+    .contacts .email a {
+        text-decoration: none;
+        color: #dd5f5c;
+        font-size: 20px;
+    }
 }
 
 footer {
-    height: 50px;
+    margin-top: -70px;
+    padding-top: 40px;
+    height: 70px;
 }
