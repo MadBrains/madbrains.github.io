@@ -75,7 +75,6 @@ body {
 .logo {
     background: url('../assets/logo.png') left top no-repeat;
     font-family: 'proxima_nova_semibold';
-        /*font-family: 'proxima_nova_extrabold';*/
     font-size: 20px;
     text-transform: uppercase;
     padding-left: 65px;
@@ -92,8 +91,7 @@ body {
 
 }
 .logo span {
-        font-family: 'proxima_nova_semibold';
-    /*font-family: 'proxima_nova_extrabold';*/
+    font-family: 'proxima_nova_semibold';
 }
 
 .cbox {
@@ -351,6 +349,17 @@ header .header-content .header-content-inner p {
     color: white;
 }
 
+.bg-photo-2 {
+    background-image: url(../assets/bg-3.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: black;
+    color: white;
+}
+
 section {
     min-height: auto;
     text-align: center;
@@ -454,4 +463,46 @@ section .section-title {
     line-height: 1.5em;
     color: #b7b7b7;
     height: 100px;
+}
+
+#contacts {
+    margin-bottom: -50px;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts .tel, .contacts .email, .contacts .name {
+    display:block;
+}
+
+.contacts .name {
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.contacts .tel {
+    margin-bottom:10px;
+    font-size:20px;
+    color: #b7b7b7;
+}
+
+.contacts .email {
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+.contacts .email:hover a {
+    text-decoration: underline;
+}
+
+.contacts .email a {
+    text-decoration: none;
+    color: #dd5f5c;
+    font-size: 20px;
+}
+
+footer {
+    height: 50px;
 }
