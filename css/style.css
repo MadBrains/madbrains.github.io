@@ -448,8 +448,31 @@ section .section-title {
     height: 250px;
 }
 
+.teammate h3 {
+    font-family: 'proxima_nova_semibold';
+}
+
+.teammate h3 a {
+    font-family: 'proxima_nova_semibold';
+    color: black;
+}
+
+.teammate h3 a:hover {
+    color: #dd5f5c;
+    text-decoration: none;
+}
+
 .project {
     padding: 10px;
+}
+
+.project a {
+    color: black;
+}
+
+.project a:hover {
+    text-decoration: underline;
+    color: #dd5f5c;
 }
 
 .project-img {
