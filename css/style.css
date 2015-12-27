@@ -111,7 +111,16 @@ body {
     color:#fff;
     margin-bottom:3px;
     font-size:20px;
+}
 
+.cbox .tel a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.cbox .tel a:hover {
+    color:#fff;
+    text-decoration: none;
 }
 
 .cbox .email {
@@ -219,6 +228,7 @@ header .header-content .header-content-inner p {
         margin: 0 auto;
         margin-top: 20px;
         width: 190px;
+        text-align: center;
     }
 
     header .header-content .header-content-inner h1 {
@@ -242,6 +252,7 @@ header .header-content .header-content-inner p {
         float: none;
         margin: 0 auto;
         margin-top: 20px;
+        text-align: center;
     }
 
     header .header-content .header-content-inner h1 {
@@ -266,7 +277,8 @@ header .header-content .header-content-inner p {
         float:right;
         margin: auto;
         margin-right: 20px;
-        margin-top: 12px;
+        margin-top: 16px;
+        text-align: right;
     }
 
     header .header-content .header-content-inner h1 {
@@ -514,6 +526,16 @@ section .section-title {
     margin-bottom:10px;
     font-size:20px;
     color: #b7b7b7;
+}
+
+.contacts .tel a {
+    color: #b7b7b7;
+    text-decoration: none;
+}
+
+.contacts .tel a:hover {
+    color: #b7b7b7;
+    text-decoration: none;
 }
 
 .contacts .email {
