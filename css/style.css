@@ -190,6 +190,10 @@ body {
   margin-left:-20px;
 }
 
+.is-mobile .arrow {
+    visibility: none;
+}
+
 .bounce {
     -webkit-animation-name: bounce;
     -moz-animation-name: bounce;
