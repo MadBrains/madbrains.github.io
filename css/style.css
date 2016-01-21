@@ -177,6 +177,72 @@ body {
     background: #E06F6D;
 }
 
+
+body {
+  background: black;
+}
+
+.arrow {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+}
+
+.is-mobile .arrow {
+    visibility: none;
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    animation-name: bounce;
+}
+
+.animated{
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+    animation-fill-mode:both;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    -ms-animation-duration:2s;
+    -o-animation-duration:2s;
+    animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-10px);}
+    60% {-webkit-transform: translateY(-7px);}
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+    40% {-moz-transform: translateY(-10px);}
+    60% {-moz-transform: translateY(-7px);}
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+    40% {-o-transform: translateY(-10px);}
+    60% {-o-transform: translateY(-7px);}
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-4px);}
+}
+
 header {
     position: relative;
     width: 100%;
@@ -498,10 +564,16 @@ section .section-title {
     line-height: 1.5em;
 }
 
+.project-date {
+    color: #b7b7b7;
+    /*font-size: 18px;*/
+    /*line-height: 1.5em;*/
+}
+
 .project-description {
     font-size: 14px;
     line-height: 1.5em;
-    color: #b7b7b7;
+    /*color: #b7b7b7;*/
     height: 100px;
 }
 
