@@ -638,3 +638,79 @@ footer {
     padding-top: 40px;
     height: 70px;
 }
+
+/* Projects.html */
+
+/*Navigation menu*/
+
+.navbar{ 
+    float: left;
+    width: 100%;
+    border: none;
+    height: 70px;
+    border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+}
+
+#lifehacker {
+    padding: 0
+}
+
+#lifehacker .section-container {
+    float: left;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.navbar .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-nav > li > a {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 50px;
+    font-size: 0.9em;
+    letter-spacing: 1.2pt; 
+
+    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus  {
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 4px #dd5f5c solid; 
+}
+
+.navbar-nav > .active > a {
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 4px #ffffff solid; 
+}
+
+.navbar-toggle {
+    border-color: none;
+    height: 32px; 
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: #ffffff; 
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
+    background-color: #231F20;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
