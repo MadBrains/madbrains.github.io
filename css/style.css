@@ -550,7 +550,7 @@ section .section-title {
     }
 
     section .section-title {
-        margin-bottom:80px;
+        margin-bottom:40px;
     }
 }
 
@@ -576,6 +576,14 @@ section .section-title {
 }
 
 /* Projects */
+.all-projects {
+  color: #000;
+}
+
+.all-projects:hover {
+  /*text-decoration: underline;*/
+  color: #dd5f5c;
+}
 
 .project {
     padding: 10px;
@@ -686,15 +694,6 @@ footer {
     width: 100%;
 }
 
-.small-header {
-    min-height: inherit !important;
-}
-
-.col-centered {
-    float: none;
-    margin: 0 auto;
-}
-
 .apps {
   margin-top: 170px;
 }
@@ -705,6 +704,13 @@ footer {
 
 .app {
   margin-bottom: 70px;
+
+}
+
+.absolute-center {
+  -webkit-box-align:center;
+  -webkit-box-pack:center;
+  display:-webkit-box;
 }
 
 .app a {
@@ -732,106 +738,127 @@ footer {
     line-height: 1.5em;
 }
 
-
 .hover-view {
- width: 175px;
- height: 175px;
- margin: 10px;
- overflow: hidden;
- position: relative;
- text-align: center;
- left: 32px;
- /*box-shadow: 1px 1px 2px #e6e6e6;*/
- cursor: default;
- /*background: #fff url(../images/bgimg.jpg) no-repeat center center*/
- -moz-border-radius:30px;
- -webkit-border-radius:30px;
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    left: 0px;
+    cursor: default;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
 }
 
 .hover-view .mask, .view .content {
- width: 175px;
- height: 175px;
- position: absolute;
- overflow: hidden;
- top: 0;
- left: 0;
- -moz-border-radius:30px;
- -webkit-border-radius:30px;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
 }
+
 .hover-view img {
- display: block;
- position: relative
+    display: block;
+    position: relative
 }
+
 .hover-view h2 {
- text-transform: uppercase;
- color: #fff;
- text-align: center;
- position: relative;
- font-size: 17px;
- padding: 10px;
- background: rgba(0, 0, 0, 0.8);
- margin: 20px 0 0 0
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
 }
+
 .hover-view p {
- font-family: Georgia, serif;
- font-style: italic;
- font-size: 12px;
- position: relative;
- color: #fff;
- padding: 10px 20px 20px;
- text-align: center
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
 }
+
 .hover-view a.info {
- display: inline-block;
- text-decoration: none;
- padding: 7px 14px;
- background: #000;
- color: #fff;
- text-transform: uppercase;
- box-shadow: 0 0 1px #000
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
 }
 .hover-view a.info:hover {
- box-shadow: 0 0 5px #000
+    box-shadow: 0 0 5px #000
 }
 
 .hover-animate img {
- transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
+
 .hover-animate .mask {
- opacity: 0;
- background-color: rgba(221,95,92, 0.7);
- transition: all 0.4s ease-in-out;
+    opacity: 0;
+    background-color: rgba(221,95,92, 0.7);
+    transition: all 0.4s ease-in-out;
 }
+
 .hover-animate h2 {
- transform: translateY(-100px);
- opacity: 0;
- transition: all 0.2s ease-in-out;
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
 }
+
 .hover-animate p {
- transform: translateY(100px);
- opacity: 0;
- transition: all 0.2s linear;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
 }
+
 .hover-animate a.info{
- opacity: 0;
- transition: all 0.2s ease-in-out;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
 }
 
 .hover-animate:hover img {
- /*transform: scale(1.1);*/
+
 }
+
 .hover-animate:hover .mask {
- opacity: 1;
+    opacity: 1;
 }
+
 .hover-animate:hover h2,
 .hover-animate:hover p,
 .hover-animate:hover a.info {
- opacity: 1;
- transform: translateY(0px);
+    opacity: 1;
+    transform: translateY(0px);
 }
 .hover-animate:hover p {
- transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 .hover-animate:hover a.info {
- transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+/* Vacancy */
+.vacancy-text {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.contacts-header {
+  font-size: 25px;
+  font-weight: 200;
+}
+.contacts-text {
+  font-size: 17px;
 }
