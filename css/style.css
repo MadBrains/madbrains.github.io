@@ -140,7 +140,7 @@ body {
 
 /*Navigation menu*/
 
-.navbar { 
+.navbar {
     float: left;
     width: 100%;
     border: none;
@@ -190,7 +190,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 0.9em;
-    letter-spacing: 1.2pt; 
+    letter-spacing: 1.2pt;
 
     height: 45px;
     margin-top: 25px;
@@ -203,13 +203,13 @@ body {
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus  {
     color: #ffffff;
     background-color: transparent;
-    border-bottom: 4px #dd5f5c solid; 
+    border-bottom: 4px #dd5f5c solid;
 }
 
 .navbar-nav > .active > a {
     color: #ffffff;
     background-color: transparent;
-    border-bottom: 4px #ffffff solid; 
+    border-bottom: 4px #ffffff solid;
 }
 
 .navbar-toggle {
@@ -220,7 +220,7 @@ body {
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
 .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
@@ -686,3 +686,152 @@ footer {
     width: 100%;
 }
 
+.small-header {
+    min-height: inherit !important;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.apps {
+  margin-top: 170px;
+}
+
+.apps-light {
+  margin-top: 70px;
+}
+
+.app {
+  margin-bottom: 70px;
+}
+
+.app a {
+    color: white;
+}
+
+.app-light a {
+    color: black;
+}
+
+.app a:hover {
+    text-decoration: underline;
+    color: #dd5f5c;
+}
+
+.app-img {
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+}
+
+.app-name {
+    font-family: "OpenSansExtraBold";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+
+.hover-view {
+ width: 175px;
+ height: 175px;
+ margin: 10px;
+ overflow: hidden;
+ position: relative;
+ text-align: center;
+ left: 32px;
+ /*box-shadow: 1px 1px 2px #e6e6e6;*/
+ cursor: default;
+ /*background: #fff url(../images/bgimg.jpg) no-repeat center center*/
+ -moz-border-radius:30px;
+ -webkit-border-radius:30px;
+}
+
+.hover-view .mask, .view .content {
+ width: 175px;
+ height: 175px;
+ position: absolute;
+ overflow: hidden;
+ top: 0;
+ left: 0;
+ -moz-border-radius:30px;
+ -webkit-border-radius:30px;
+}
+.hover-view img {
+ display: block;
+ position: relative
+}
+.hover-view h2 {
+ text-transform: uppercase;
+ color: #fff;
+ text-align: center;
+ position: relative;
+ font-size: 17px;
+ padding: 10px;
+ background: rgba(0, 0, 0, 0.8);
+ margin: 20px 0 0 0
+}
+.hover-view p {
+ font-family: Georgia, serif;
+ font-style: italic;
+ font-size: 12px;
+ position: relative;
+ color: #fff;
+ padding: 10px 20px 20px;
+ text-align: center
+}
+.hover-view a.info {
+ display: inline-block;
+ text-decoration: none;
+ padding: 7px 14px;
+ background: #000;
+ color: #fff;
+ text-transform: uppercase;
+ box-shadow: 0 0 1px #000
+}
+.hover-view a.info:hover {
+ box-shadow: 0 0 5px #000
+}
+
+.hover-animate img {
+ transition: all 0.2s linear;
+}
+.hover-animate .mask {
+ opacity: 0;
+ background-color: rgba(221,95,92, 0.7);
+ transition: all 0.4s ease-in-out;
+}
+.hover-animate h2 {
+ transform: translateY(-100px);
+ opacity: 0;
+ transition: all 0.2s ease-in-out;
+}
+.hover-animate p {
+ transform: translateY(100px);
+ opacity: 0;
+ transition: all 0.2s linear;
+}
+.hover-animate a.info{
+ opacity: 0;
+ transition: all 0.2s ease-in-out;
+}
+
+.hover-animate:hover img {
+ /*transform: scale(1.1);*/
+}
+.hover-animate:hover .mask {
+ opacity: 1;
+}
+.hover-animate:hover h2,
+.hover-animate:hover p,
+.hover-animate:hover a.info {
+ opacity: 1;
+ transform: translateY(0px);
+}
+.hover-animate:hover p {
+ transition-delay: 0.1s;
+}
+.hover-animate:hover a.info {
+ transition-delay: 0.2s;
+}
