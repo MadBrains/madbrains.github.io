@@ -885,3 +885,12 @@ footer {
   /*text-decoration: underline;*/
   color: #dd5f5c;
 }
+
+/* en */
+.en-adress {
+  color: #fff;
+}
+.en-adress:hover {
+  color: #fff;
+  text-decoration: underline;
+}
