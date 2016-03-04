@@ -876,3 +876,12 @@ footer {
 .contacts-text {
   font-size: 17px;
 }
+
+.contacts-link {
+  color: #000;
+}
+
+.contacts-link:hover {
+  /*text-decoration: underline;*/
+  color: #dd5f5c;
+}
