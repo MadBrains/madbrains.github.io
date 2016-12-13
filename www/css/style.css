@@ -169,7 +169,8 @@ body {
     line-height: 135%;
     color: white;
     text-align: left;
-    width: 200px;
+    width: 240px;
+    height: 56px;
     padding-left: 65px;
     padding-top: 5px;
     margin-top: 15px;
@@ -674,12 +675,12 @@ section .section-title {
 .contacts .email a {
     text-decoration: none;
     color: #dd5f5c;
-    font-size: 14px;
+    font-size: 32px;
 }
 
 @media only screen and (min-width : 480px) {
     .contacts .email a {
-        font-size: 20px;
+        font-size: 32px;
     }
 }
 
